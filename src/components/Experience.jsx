@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { experiences ,visualizations} from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -56,6 +56,12 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+const ImageCard = ({icon, name}) => {
+  return (<div className="flex flex-col m-10">
+    <img src={icon} className="rounded-[20px] min-h-[280px] h-[280px]"/>
+    <p className=" text-#FFAC1C text-[18px] font-bold cursor-pointer text-center">{name}</p>
+  </div>)
+}
 const Experience = () => {
   return (
     <>
@@ -64,12 +70,16 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>Visualization</h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+      <div className="mt-20 flex flex-row justify-around flex-wrap">
+        {visualizations.map((item,index) =>{
+          console.log(item)
+          return <ImageCard key={index} {...item}/>}
+        )}
+        {/* <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-        </VerticalTimeline>
+        </VerticalTimeline> */}
       </div>
     </>
   );

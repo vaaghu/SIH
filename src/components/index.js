@@ -8,7 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-
+import NoPage from "./NoPage"
+import Info from "./Info"
 
 export {
   Hero,
@@ -23,5 +24,7 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  NoPage,
+  Info
 };

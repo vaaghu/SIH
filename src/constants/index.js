@@ -34,10 +34,10 @@ export const navLinks = [
     id: "work",
     title: "Visualization",
   },
-  {
-    id: "contact",
-    title: "XKL",
-  },
+  // {
+  //   id: "contact",
+  //   title: "XKL",
+  // },
 ];
 
 const services = [
@@ -113,7 +113,56 @@ const technologies = [
     icon: docker,
   },
 ];
-
+const visualizations = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  }
+];
 const experiences = [
   {
     title: "React.js Developer",
@@ -451,4 +500,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, visualizations, experiences, testimonials, projects };
