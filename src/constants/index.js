@@ -23,7 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
-  mona_lisa
+  mona_lisa,
+
 } from "../assets";
 
 export const navLinks = [
@@ -181,12 +182,14 @@ const visualizations = [
 const infos = [
   {
     id:1,
-    title:"awd",
+    title:"title one",
     img:mona_lisa,
     description:[
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "awdawdawdaw"
+    
     ]
   },
   {
@@ -299,9 +302,37 @@ const infos = [
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
     ]
   },
+  {
+    id:13,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:14,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:15,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
 ]
-
-
 
 const experiences = [
   {
@@ -360,28 +391,19 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    id:13,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    id:14,
+    name: "CSS 3",
+    icon: css,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    id:15,
+    name: "JavaScript",
+    icon: javascript,
   },
 ];
 
