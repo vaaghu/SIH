@@ -64,7 +64,7 @@ const ImageCard = ({id,icon, name}) => {
         >
       <div className="flex flex-col m-10">
         <img src={icon} className="rounded-[20px] min-h-[280px] h-[280px]"/>
-        <p className=" text-#FFAC1C text-[18px] font-bold cursor-pointer text-center">{name}</p>
+        <p className=" text-#FFAC1C text-[18px] font-bold cursor-pointer text-center my-5" >{name}</p>
       </div>
     </Link>)
 }
