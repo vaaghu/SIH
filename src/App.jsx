@@ -30,7 +30,7 @@ const Home = () =>{
     localStorage.setItem("scrollTop", event.currentTarget.scrollTop);
   }}
   >
-  <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+  <div >
     <Navbar />
     <Hero />
   </div>
@@ -39,7 +39,7 @@ const Home = () =>{
   {/* <Tech /> */}
   <Works />
   <Feedbacks />
-  {/* <StarsCanvas /> */}
+  <StarsCanvas />
   {/* <div className="relative z-0">
     <Contact />
   </div> */}
