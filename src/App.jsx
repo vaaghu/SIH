@@ -13,9 +13,23 @@ import {
   NoPage,
   Info
 } from "./components";
+import {infos} from "./constants"
+import { useEffect, useRef } from "react";
 
 const Home = () =>{
-  return (<div className="relative z-0 bg-primary">
+  const sectionRef = useRef(null);
+  useEffect(() => {
+    if (sectionRef.current) {
+      console.log(localStorage.getItem("scrollTop"));
+      sectionRef.current.scrollTop = parseInt(
+        localStorage.getItem("scrollTop")
+      ); // Set the desired initial value (in pixels)
+    }
+  }, []);
+  return (<div className="relative z-0 bg-primary h-[100dvh] overflow-y-scroll scroll-auto" ref={sectionRef} onScroll={(event) => {
+    localStorage.setItem("scrollTop", event.currentTarget.scrollTop);
+  }}
+  >
   <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
     <Navbar />
     <Hero />
@@ -37,7 +51,11 @@ const App = () => {
     <BrowserRouter>
     <Routes>
         <Route index path="/" element={<Home />} />
-        <Route path="/info" element={<Info />} />
+        {infos.map((info,index)=>{
+          return(
+            <Route key={index} path={`/info-${info.id}`} element={<Info {...info}/>} />
+          )
+        })}
         <Route path="*" element={<NoPage />} />
     </Routes>
   </BrowserRouter>

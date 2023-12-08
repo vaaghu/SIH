@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
@@ -56,11 +56,17 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-const ImageCard = ({icon, name}) => {
-  return (<div className="flex flex-col m-10">
-    <img src={icon} className="rounded-[20px] min-h-[280px] h-[280px]"/>
-    <p className=" text-#FFAC1C text-[18px] font-bold cursor-pointer text-center">{name}</p>
-  </div>)
+const ImageCard = ({id,icon, name}) => {
+  return (
+    <Link
+          to={`/info-${id}`}
+          className="flex items-center gap-2 my-5"
+        >
+      <div className="flex flex-col m-10">
+        <img src={icon} className="rounded-[20px] min-h-[280px] h-[280px]"/>
+        <p className=" text-#FFAC1C text-[18px] font-bold cursor-pointer text-center">{name}</p>
+      </div>
+    </Link>)
 }
 const Experience = () => {
   return (
@@ -72,7 +78,7 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-row justify-around flex-wrap">
         {visualizations.map((item,index) =>{
-          console.log(item)
+          // console.log(item)
           return <ImageCard key={index} {...item}/>}
         )}
         {/* <VerticalTimeline>

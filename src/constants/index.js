@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  mona_lisa
 } from "../assets";
 
 export const navLinks = [
@@ -113,56 +114,195 @@ const technologies = [
     icon: docker,
   },
 ];
+
 const visualizations = [
   {
+    id:1,
     name: "HTML 5",
     icon: html,
   },
   {
+    id:2,
     name: "CSS 3",
     icon: css,
   },
   {
+    id:3,
     name: "JavaScript",
     icon: javascript,
   },
   {
+    id:4,
     name: "TypeScript",
     icon: typescript,
   },
   {
+    id:5,
     name: "React JS",
     icon: reactjs,
   },
   {
+    id:6,
     name: "Redux Toolkit",
     icon: redux,
   },
   {
+    id:7,
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    id:8,
     name: "Node JS",
     icon: nodejs,
   },
   {
+    id:9,
     name: "MongoDB",
     icon: mongodb,
   },
   {
+    id:10,
     name: "Three JS",
     icon: threejs,
   },
   {
+    id:11,
     name: "git",
     icon: git,
   },
   {
+    id:12,
     name: "figma",
     icon: figma,
   }
 ];
+
+const infos = [
+  {
+    id:1,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:2,
+    title:"awdawd awd awd ",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:3,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:4,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:5,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:6,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:7,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:8,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:9,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:10,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:11,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+  {
+    id:12,
+    title:"awd",
+    img:mona_lisa,
+    description:[
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    ]
+  },
+]
+
+
+
 const experiences = [
   {
     title: "React.js Developer",
@@ -500,4 +640,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, visualizations, experiences, testimonials, projects };
+export { services, technologies, visualizations, experiences, testimonials, projects, infos };
