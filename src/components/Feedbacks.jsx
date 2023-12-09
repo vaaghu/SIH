@@ -38,8 +38,21 @@ const Feedbacks = () => {
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText}>FEATURES</p>
+          <h1 className={styles.sectionHeadText}>CROP YIELD RECOMMENDATION</h1>
+
+        <p className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
+        The science of training machines to learn and produce models for future predictions
+        is widely used, and not for nothing. Agriculture plays a critical role in the global economy.
+        With the continuing expansion of the human population understanding worldwide crop yield is central
+        to addressing food security challenges and reducing the impacts of climate change. Crop yield prediction
+        is an important agricultural problem. The Agricultural yield primarily depends on weather conditions
+        (rain, temperature, etc), pesticides and accurate information about history of crop yield is an
+        important thing for making decisions related to agricultural risk management and future predictions.
+        </p>
+
+        <div className="my-12" />
+      
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center`}>

@@ -72,8 +72,22 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Heavy Rainfall Predictation</p>
-        <h2 className={styles.sectionHeadText}>Visualization</h2>
+        <p className={styles.sectionSubText}>HIGH/HEAVY RAINFALL PREDICTION</p> 
+        <h2 className={styles.sectionHeadText}>VISUALIZATION</h2>
+        <p
+        
+        className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
+        >
+        Nowcasting of high/heavy precipitation rainfall events can have a profound impact
+        on various aspects of society and the environment. From mitigating disaster risks
+        through early warnings and resource allocation to protecting crops and infrastructure,
+        accurate forecasts are crucial for building a safer and more resilient future.
+        By using advanced technologies like convolutional neural networks (CNNs),
+        we can improve the accuracy and lead time of predictions, allowing communities
+        to prepare for extreme weather events and minimize their potential damage.
+        not only saves lives and protects livelihoods but also ensures the sustainable
+        development of communities worldwide.
+      </p>
       </motion.div>
 
       <div className="mt-20 flex flex-row justify-around flex-wrap">

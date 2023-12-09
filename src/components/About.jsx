@@ -42,19 +42,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Overview</p>
-        <h2 className={styles.sectionHeadText}>HIGH/HEAVY RAINFALL PREDICTATION.</h2>
+        <p className={styles.sectionSubText}>Annual</p> 
+        <h2 className={styles.sectionHeadText}>RAINFALL PREDICTION</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
       >
         INSAT-3D and INSAT-3DR are two geostationary meteorological satellites of India having
         6 channel Imager and 19 channel Sounder payloads. The imagery captured in the visible
         range by INSAT satellite can be used to detect clouds. The high/heavy impact of rainfall
         will be predicted with the cloud image data  obtained by INSAT 3DR. This is the initiative
-        for eliminating the failure of effective prediction of rainfall impacts.
+        for eliminating the failure of effective prediction of rainfall impacts. The average rainfall in India is 118 cm according to annual data from the Meteorological Department.
 
       </motion.p>
 
