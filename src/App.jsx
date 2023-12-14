@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
 import {
   About,
@@ -11,7 +12,9 @@ import {
   Works,
   StarsCanvas,
   NoPage,
-  Info
+  Info,
+ 
+
 } from "./components";
 import {infos} from "./constants"
 import { useEffect, useRef } from "react";
@@ -40,6 +43,7 @@ const Home = () =>{
   <Works />
   <Feedbacks />
   <StarsCanvas />
+  <Footer />
   {/* <div className="relative z-0">
     <Contact />
   </div> */}
