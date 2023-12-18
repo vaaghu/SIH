@@ -8,7 +8,7 @@ const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={2.5} position={[0, -2.5, 0]} rotation-y={0} />   //change y axis here
   );
 };
 
@@ -23,7 +23,7 @@ const EarthCanvas = () => {
         fov: 45,
         near: 0.1,
         far: 200,
-        position: [-4, 3, 6],
+        position: [-4, 9, 6],
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -33,8 +33,7 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
-
+        <Earth scale={[0, -5 , 0]} />
         <Preload all />
       </Suspense>
     </Canvas>
