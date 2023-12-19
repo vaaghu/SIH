@@ -35,7 +35,7 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
-          className="text-secondary text-[16px] font-semibold"
+          className="text-[#ffffff] text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -76,7 +76,7 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>VISUALIZATION</h2>
         <p
         
-        className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
+        className="mt-4 text-[#ffffff] text-[17px] max-w-5xl leading-[30px]"
         >
         Nowcasting of high/heavy precipitation rainfall events can have a profound impact
         on various aspects of society and the environment. From mitigating disaster risks

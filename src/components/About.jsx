@@ -48,7 +48,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
+        className="mt-4 text-[#ffffff] text-[17px] max-w-4xl leading-[30px]"
       >
         INSAT-3D and INSAT-3DR are two geostationary meteorological satellites of India having
         6 channel Imager and 19 channel Sounder payloads. The imagery captured in the visible

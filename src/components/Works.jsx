@@ -57,7 +57,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-[#ffffff] text-[17px] max-w-3xl leading-[30px]"
         >
           Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear,
           transparent explanations for AI predictions, leading to improved weather forecasting,

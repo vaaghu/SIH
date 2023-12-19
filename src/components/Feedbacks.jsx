@@ -41,7 +41,7 @@ const Feedbacks = () => {
           <p className={styles.sectionSubText}>FEATURES</p>
           <h1 className={styles.sectionHeadText}>CROP YIELD RECOMMENDATION</h1>
 
-        <p className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]">
+        <p className="mt-4 text-[#ffffff] text-[17px] max-w-5xl leading-[30px]">
         The science of training machines to learn and produce models for future predictions
         is widely used, and not for nothing. Agriculture plays a critical role in the global economy.
         With the continuing expansion of the human population understanding worldwide crop yield is central

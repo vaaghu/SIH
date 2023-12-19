@@ -6,7 +6,7 @@ function Footer() {
         <div className='flex  max-[800px]:flex-col'>
             <div className=' md:w-1/2 ml-24  flex flex-col   p-10 gap-9 sm:w-ful'>
                 <h1 className='flex justify-start text-white font-bold text-xl'>Hackaton2023</h1>
-                <p className='flex indent-5 break-words text-gray-400 font-medium text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eos at assumenda quia porro deserunt earum voluptas, hic dolorem consectetur labore? Cum repellat accusamus porro nisi velit enim natus harum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eos at assumenda quia porro deserunt earum voluptas, hic dolorem consectetur labore? Cum repellat accusamus porro nisi velit enim natus harum.</p>
+                <p className='flex indent-5 break-words text-[#ffffff] font-medium text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eos at assumenda quia porro deserunt earum voluptas, hic dolorem consectetur labore? Cum repellat accusamus porro nisi velit enim natus harum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi eos at assumenda quia porro deserunt earum voluptas, hic dolorem consectetur labore? Cum repellat accusamus porro nisi velit enim natus harum.</p>
                 <a href='https://www.youtube.com/watch?v=dmajqKFrxyg' className='flex font-normal justify-center border-2 w-40 text-center bg-[#3f9fef] text-white'>Youtube</a>
                 
             </div>
