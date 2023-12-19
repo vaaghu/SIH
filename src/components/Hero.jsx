@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-[#ff671f]`}>
+          <h1 className={`${styles.heroHeadText} text-[#6bbc24]`}>
             PS Code: <span className="text-[#6bbc24]"> 1521</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
