@@ -9,7 +9,7 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
+  Xai,
   StarsCanvas,
   NoPage,
   Info,
@@ -40,7 +40,7 @@ const Home = () =>{
   <About />
   <Experience />
   {/* <Tech /> */}
-  <Works />
+  <Xai />
   <Feedbacks />
   <StarsCanvas />
   <Footer />
