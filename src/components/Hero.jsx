@@ -17,7 +17,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-[#FF671F]`}>
             PS Code: <span className="text-[#FF671F]"> 1521</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-[#138808]-100`}>
             Explainable AI (XAI) based model for prediction of <br className="sm:block hidden" />
             heavy/high impact rain events using satellite
           </p>

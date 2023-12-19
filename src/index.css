@@ -84,6 +84,10 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
+.blue-gradient {
+  background: linear-gradient(to bottom, #06038D, #2c3e50); /* Use your desired blue color values */
+}
+
 .blue-text-gradient {
   /* background: -webkit-linear-gradient(#eee, #333); */
   background: #56ccf2; /* fallback for old browsers */
