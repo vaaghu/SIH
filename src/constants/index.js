@@ -38,11 +38,11 @@ export const navLinks = [
   },
   {
     id: "project",
-    title: "Projects",
+    title: "Explainable AI",
   },
   {
     id: "feedback",
-    title: "Testimonials",
+    title: "Features",
   },
   // {
   //   id: "contact",
