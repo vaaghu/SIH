@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+// import pred1 from "./tech/pred1.png";
+// import pred1 from "./tech/pred1_1.png";
+// import pred1 from "./tech/pred1_2.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,7 +33,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import mona_lisa from "./mona_lisa.jpg";
+// import mona_lisa from "./mona_lisa.jpg";
+import vis_dis1 from "./vis_dis1.png";
+import vis_dis2 from "./vis_dis2.png";
+import vis_dis3 from "./vis_dis3.png";
+import vis_dis13 from "./vis_dis13.png";
+import vis_dis14 from "./vis_dis14.png";
+import vis_dis15 from "./vis_dis15.png";
 
 export {
   logo,
@@ -61,7 +70,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  // pred1,
+  // pred1_1,
+  // pred1_2,
 
-  mona_lisa,
+  
+  vis_dis1,
+  vis_dis2,
+  vis_dis3,
+  vis_dis13,
+  vis_dis14,
+  vis_dis15,
 
 };
