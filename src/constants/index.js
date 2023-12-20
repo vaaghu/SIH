@@ -80,15 +80,15 @@ const services = [
 
 const technologies = [
   {
-    name: "MAP 1",
+    name: "SVM",
     icon: html,
   },
   {
-    name: "MAP 2",
+    name: "ROC",
     icon: css,
   },
   {
-    name: "MAP 3",
+    name: "Annual Rainfall",
     icon: javascript,
   },
   {
@@ -136,17 +136,17 @@ const technologies = [
 const visualizations = [
   {
     id:1,
-    name: "Map 1",
+    name: "SVM",
     icon: visual1,
   },
   {
     id:2,
-    name: "Map 2",
+    name: "ROC",
     icon: visual2,
   },
   {
     id:3,
-    name: "Map 3",
+    name: "Annual Rainfall",
     icon: visual3,
   },
   // {
@@ -202,12 +202,7 @@ const infos = [
     title:"PREDICTED VALUES",
     img:vis_dis1,
     description:[
-      "ds          yhat",
-      "27 2021-01-27     1.312787e+12",
-      "28 2021-01-28     1.363278e+12",
-      "29 2021-01-29     1.413770e+12",
-      "30 2021-01-30    1.464262e+12",
-      "31 2021-01-31    1.514754e+12",
+      "The above given plots describes about the support vector machines prediction vs actual graphs - Accuracy 80%",
 
     ]
   },
@@ -216,9 +211,8 @@ const infos = [
     title:"PREDICTED VALUES",
     img:vis_dis2,
     description:[
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "The above given plot despicts ROC Curve obtained during the prediction",
+      ,
     ]
   },
   {
@@ -226,39 +220,37 @@ const infos = [
     title:"PREDICTED VALUES",
     img:vis_dis3,
     description:[
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "The above given plot Clearly States the state wise Annual Rainfall Analysis of India in mm",
     ]
   },
   {
     id:13,
-    title:"CROP YIELD RECOMMENDATION",
+    title:"Average Rain Fall in mm",
     img:vis_dis13,
     description:[
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "In the domain of crop yield recommendation, the Avg Rainfall (mm) feature plays a pivotal role in shaping agricultural guidance. This metric encapsulates the average precipitation in millimeters over a designated timeframe, serving as a critical indicator of the water supply available for crop growth. The variability in rainfall directly impacts the soil moisture levels, influencing decisions on suitable crop selections and optimal cultivation strategies.",
+      "Agricultural experts and decision-support systems leverage this feature to tailor recommendations, advising farmers on crops that align with the prevailing climatic conditions. Whether a region experiences abundant or scarce rainfall greatly influences the suggested agricultural practices to maximize crop yield and ensure sustainable farming outcomes",
+      "In essence, the Avg Rainfall (mm) feature encapsulates the climatic factor that is fundamental to successful crop cultivation. Its integration into crop yield recommendation models allows for more accurate and region-specific guidance, fostering a resilient and productive agricultural landscape",
     ]
   },
   {
     id:14,
-    title:"CROP YIELD RECOMMENDATION",
+    title:"Country Wise Croup Yeild Data",
     img:vis_dis14,
     description:[
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+      "To provide country-specific crop yield recommendations, a comprehensive analysis of crop production data is indispensable. Country-wise reports encompass crucial details such as crop varieties, planting and harvesting seasons, and environmental factors. Leveraging this information, advanced machine learning models can generate personalized recommendations by considering historical yield data, climate conditions, and soil quality. ",
+      "These tailored insights empower farmers and policymakers to make informed decisions, optimizing crop selection and cultivation practices for increased productivity and sustainable agriculture.",
+      "The country-wise crop yield recommendation reports play a pivotal role in shaping agricultural strategies. By offering targeted insights into optimal crop choices and cultivation techniques based on local conditions, these reports contribute to maximizing yields and ensuring food security.",
     ]
   },
   {
     id:15,
-    title:"CROP YIELD RECOMMENDATION",
+    title:"World Region",
     img:vis_dis15,
-    description:[
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
+    description:[ 
+      "World region crop production involves the analysis and understanding of the agricultural output across different geographic areas globally. Various features play a crucial role in determining crop yield recommendations for specific world regions. These features include climate conditions, soil types, available water resources, and historical crop performance.",
+      "Understanding the unique characteristics of each region is essential for tailoring crop recommendations that maximize yield and ensure sustainable agricultural practices.",
+      "Climate conditions significantly influence crop production. Factors such as temperature, precipitation, and sunlight duration impact the growth and development of crops. Different regions experience diverse climates, ranging from arid and semi-arid to tropical and temperate.",
     ]
   },
 ]
@@ -321,26 +313,26 @@ const experiences = [
 const testimonials = [
   {
     id:13,
-    name: "Crop 1",
+    name: "Avg Rainfall in mm ",
     icon: html,
   },
   {
     id:14,
-    name: "Crop 2",
+    name: "Country wise crop Yeild Production",
     icon: css,
   },
   {
     id:15,
-    name: "Crop 3",
+    name: "World Regions",
     icon: javascript,
   },
 ];
 
 const projects = [
   {
-    name: "AI 1",
+    name: "SHAP",
     description:
-      "Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear, transparent explanations for AI predictions, leading to improved weather forecasting, environmental monitoring, and disaster management.",
+      "SHAP (SHapley Additive exPlanations) is a method for explaining machine learning model predictions. To apply SHAP to rainfall prediction",
     tags: [
       {
         name: "High",
@@ -359,9 +351,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "AI 2",
+    name: "LIME",
     description:
-      "Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear, transparent explanations for AI predictions, leading to improved weather forecasting, environmental monitoring, and disaster management.",
+      "A linear model for rainfall prediction assumes that the relationship between input features (e.g., temperature, humidity) and rainfall is linear.",
     tags: [
       {
         name: "High",
@@ -380,9 +372,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "AI 3",
+    name: "SHAP",
     description:
-      "Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear, transparent explanations for AI predictions, leading to improved weather forecasting, environmental monitoring, and disaster management.",
+      "For rainfall prediction, train a model, calculate SHAP values for temperature and humidity, and visualize the results for better insights.",
     tags: [
       {
         name: "High",
