@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  visual1,
+  visual2,
+  visual3,
   vis_dis1,
   vis_dis2,
   vis_dis3,
@@ -77,15 +80,15 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "MAP 1",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "MAP 2",
     icon: css,
   },
   {
-    name: "JavaScript",
+    name: "MAP 3",
     icon: javascript,
   },
   {
@@ -133,18 +136,18 @@ const technologies = [
 const visualizations = [
   {
     id:1,
-    name: "HTML 5",
-    icon: html,
+    name: "Map 1",
+    icon: visual1,
   },
   {
     id:2,
-    name: "CSS 3",
-    icon: css,
+    name: "Map 2",
+    icon: visual2,
   },
   {
     id:3,
-    name: "JavaScript",
-    icon: javascript,
+    name: "Map 3",
+    icon: visual3,
   },
   // {
   //   id:4,
@@ -196,19 +199,21 @@ const visualizations = [
 const infos = [
   {
     id:1,
-    title:"title one",
+    title:"PREDICTED VALUES",
     img:vis_dis1,
     description:[
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
-      "awdawdawdaw"
-    
+      "ds          yhat",
+      "27 2021-01-27     1.312787e+12",
+      "28 2021-01-28     1.363278e+12",
+      "29 2021-01-29     1.413770e+12",
+      "30 2021-01-30    1.464262e+12",
+      "31 2021-01-31    1.514754e+12",
+
     ]
   },
   {
     id:2,
-    title:"awdawd awd awd ",
+    title:"PREDICTED VALUES",
     img:vis_dis2,
     description:[
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
@@ -218,7 +223,7 @@ const infos = [
   },
   {
     id:3,
-    title:"awd",
+    title:"PREDICTED VALUES",
     img:vis_dis3,
     description:[
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
@@ -228,7 +233,7 @@ const infos = [
   },
   {
     id:13,
-    title:"awd",
+    title:"CROP YIELD RECOMMENDATION",
     img:vis_dis13,
     description:[
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
@@ -238,7 +243,7 @@ const infos = [
   },
   {
     id:14,
-    title:"awd",
+    title:"CROP YIELD RECOMMENDATION",
     img:vis_dis14,
     description:[
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
@@ -248,7 +253,7 @@ const infos = [
   },
   {
     id:15,
-    title:"awd",
+    title:"CROP YIELD RECOMMENDATION",
     img:vis_dis15,
     description:[
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium assumenda neque cum, earum cupiditate incidunt nostrum autem similique beatae tempora ea saepe minus expedita. Aliquid voluptate illum sit illo!",
@@ -316,37 +321,37 @@ const experiences = [
 const testimonials = [
   {
     id:13,
-    name: "HTML 5",
+    name: "Crop 1",
     icon: html,
   },
   {
     id:14,
-    name: "CSS 3",
+    name: "Crop 2",
     icon: css,
   },
   {
     id:15,
-    name: "JavaScript",
+    name: "Crop 3",
     icon: javascript,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI 1",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear, transparent explanations for AI predictions, leading to improved weather forecasting, environmental monitoring, and disaster management.",
     tags: [
       {
-        name: "react",
+        name: "High",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Heavy",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Moderate",
         color: "pink-text-gradient",
       },
     ],
@@ -354,20 +359,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "AI 2",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear, transparent explanations for AI predictions, leading to improved weather forecasting, environmental monitoring, and disaster management.",
     tags: [
       {
-        name: "react",
+        name: "High",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Heavy",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Moderate",
         color: "pink-text-gradient",
       },
     ],
@@ -375,20 +380,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "AI 3",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Analyzing INSAT-3D data with Explainable AI (XAI) models like LIME or SHAP provides clear, transparent explanations for AI predictions, leading to improved weather forecasting, environmental monitoring, and disaster management.",
     tags: [
       {
-        name: "nextjs",
+        name: "High",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Heavy",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Moderate",
         color: "pink-text-gradient",
       },
     ],

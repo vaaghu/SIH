@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import visual1 from "./tech/visual1.png";
+import visual2 from "./tech/visual2.png";
+import visual3 from "./tech/visual3.png";
 // import pred1 from "./tech/pred1.png";
 // import pred1 from "./tech/pred1_1.png";
 // import pred1 from "./tech/pred1_2.png";
@@ -70,6 +73,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  visual1,
+  visual2,
+  visual3,
   // pred1,
   // pred1_1,
   // pred1_2,
