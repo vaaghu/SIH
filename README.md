@@ -1,11 +1,14 @@
 <!-- Getting Started -->
 ## Smart India Hackathon 23
 
-#### Problem Statement Title:
-Developing of Explainable AI (XAI) based model for prediction of heavy/high impact rain events using satellite
-
 #### Ministry/Organization Name/Student Innovation:
 Indian Space Research Organisation(ISRO)
+
+#### Problem Statement Title:
+SIH 1521 - Development of Explainable AI (XAI) based model for prediction of heavy /high impact rain events using satellite data
+
+Development of an AI-based nowcasting model for predicting heavy precipitation events using INSAT-3D/3DR satellite data. Our system includes an explainable AI module (XAI) to enhance interpretability. The final output is delivered through a user-friendly web application, showcasing model accuracy and providing explanations for the generated predictions. This marks the achievement of our goals for SIH'23 Final.
+
 
 
 <!-- TechStack -->
