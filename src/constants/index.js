@@ -330,9 +330,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SHAP",
+    name: "LIME1",
     description:
-      "SHAP (SHapley Additive exPlanations) is a method for explaining machine learning model predictions. To apply SHAP to rainfall prediction",
+      "Blue bars: These bars represent the contributions of different features to predictions for each month. The taller the bar, the contribution of that feature to the prediction.",
     tags: [
       {
         name: "High",
@@ -351,9 +351,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "LIME",
+    name: "LIME2",
     description:
-      "A linear model for rainfall prediction assumes that the relationship between input features (e.g., temperature, humidity) and rainfall is linear.",
+      "Timeline: This horizontal line represents the time period under consideration. The specific dates are not shown in the image you sent, but it appears divided into months.",
     tags: [
       {
         name: "High",
@@ -372,9 +372,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "SHAP",
+    name: "LIME3",
     description:
-      "For rainfall prediction, train a model, calculate SHAP values for temperature and humidity, and visualize the results for better insights.",
+      "Top bar: This shows the predicted class, which in this case is Heavy Rainfall. The number beneath it likely represents the confidence score of the prediction.",
     tags: [
       {
         name: "High",
