@@ -136,17 +136,17 @@ const technologies = [
 const visualizations = [
   {
     id:1,
-    name: "SVM",
+    name: "PREDICTED ON 2021",
     icon: visual1,
   },
   {
     id:2,
-    name: "ROC",
+    name: "PREDICTED ON 2022",
     icon: visual2,
   },
   {
     id:3,
-    name: "Annual Rainfall",
+    name: "PREDICTED ON 2023",
     icon: visual3,
   },
   // {
