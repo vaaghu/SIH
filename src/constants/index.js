@@ -199,28 +199,28 @@ const visualizations = [
 const infos = [
   {
     id:1,
-    title:"PREDICTED VALUES",
+    title:"PREDICTED ON 2021",
     img:vis_dis1,
     description:[
-      "The above given plots describes about the support vector machines prediction vs actual graphs - Accuracy 80%",
+      "The blue line in the graph shows the actual rainfall data for 2021. The green line shows the fitted ARIMA model's prediction of the rainfall data. The shaded areas around the green line show the model's uncertainty in its predictions. The wider the shaded area, the less certain the model is about its prediction. The two horizontal red lines show the thresholds used to define heavy rainfall and no rainfall events. The ARIMA model was used to predict the probability of a heavy rainfall or no rainfall event occurring at each time point. These probabilities are shown by the gray line in the graph. The higher the gray line, the more likely it is that a heavy rainfall event will occur at that time point. The x-axis of the graph shows the time in days. \n The y-axis of the graph shows the rainfall in millimeters.\n The graph shows the data for the entire year of 2021.",
 
     ]
   },
   {
     id:2,
-    title:"PREDICTED VALUES",
+    title:"PREDICTED ON 2022",
     img:vis_dis2,
     description:[
-      "The above given plot despicts ROC Curve obtained during the prediction",
+      "The blue line in the graph shows the actual rainfall data for 2022. The green line shows the fitted ARIMA model's prediction of the rainfall data. The shaded areas around the green line show the model's uncertainty in its predictions. The wider the shaded area, the less certain the model is about its prediction. The two horizontal red lines show the thresholds used to define heavy rainfall and no rainfall events. The ARIMA model was used to predict the probability of a heavy rainfall or no rainfall event occurring at each time point. These probabilities are shown by the gray line in the graph. The higher the gray line, the more likely it is that a heavy rainfall event will occur at that time point. The x-axis of the graph shows the time in days. The y-axis of the graph shows the rainfall in millimeters. The graph shows the data for the entire year of 2022",
       ,
     ]
   },
   {
     id:3,
-    title:"PREDICTED VALUES",
+    title:"PREDICTED ON 2023",
     img:vis_dis3,
     description:[
-      "The above given plot Clearly States the state wise Annual Rainfall Analysis of India in mm",
+      "The blue line in the graph shows the actual rainfall data for 2023. The green line shows the fitted ARIMA model's prediction of the rainfall data. The shaded areas around the green line show the model's uncertainty in its predictions. The wider the shaded area, the less certain the model is about its prediction. The two horizontal red lines show the thresholds used to define heavy rainfall and no rainfall events. The ARIMA model was used to predict the probability of a heavy rainfall or no rainfall event occurring at each time point. These probabilities are shown by the gray line in the graph. The higher the gray line, the more likely it is that a heavy rainfall event will occur at that time point. The x-axis of the graph shows the time in days. The y-axis of the graph shows the rainfall in millimeters. The graph shows the data for the entire year of 2023 ",
     ]
   },
   {
