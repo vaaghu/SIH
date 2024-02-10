@@ -26,7 +26,7 @@ function Footer() {
             </div>
             
         </div>
-        <div ><h1 className='bg-[#100d25] text-center text-white p-2'>&copy; Copyright 2023 </h1></div>
+        <div ><h1 className='bg-[#100d25] text-center text-white p-2'>&copy; Copyright SIH'2023 </h1></div>
 </footer>
 
   )
